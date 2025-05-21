@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+dialog[open] {
+  animation: slide-in-from-top 0.35s ease-out;
+  transform-origin: center;
+}
+
+@keyframes slide-in-from-top {
+  0% {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+.geometric-shapes-background {
+  background-image: url("./assets/geometric-shapes-background.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.line-wave-background {
+  background-image: url("./assets/wave-line-1.svg"),
+    url("./assets/wave-line-2.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 700px auto, 700px auto;
+  background-position: top -90px right -100px, bottom -90px left -100px;
+}

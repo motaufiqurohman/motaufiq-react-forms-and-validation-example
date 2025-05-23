@@ -80,6 +80,6 @@ Follow these steps to run the project locally:
 
 ## Notes
 
-- Replace <REPOSITORY-URL> with the actual GitHub repository URL.
-- Replace <project-folder-name> with your project’s folder name after cloning.
+- Replace `<REPOSITORY-URL>` with the actual GitHub repository URL.
+- Replace `<project-folder-name>` with your project’s folder name after cloning.
 - If you run into issues, double-check that all dependencies are installed correctly and that Node.js is set up properly.

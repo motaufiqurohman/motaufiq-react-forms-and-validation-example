@@ -10,7 +10,7 @@ It serves as a lightweight boilerplate or reference for building React forms wit
 
 ## **Preview**
 
-![Preview go-logger](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnFhZm10cDdqeG5wZnV1eXk2cTFqOWVmNmNjbXFzcGxrbGpzb3FmMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/In6RlbdP61Ot8lBN14/giphy.gif)
+![Preview motaufiq-react-forms-and-validation-example](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnFhZm10cDdqeG5wZnV1eXk2cTFqOWVmNmNjbXFzcGxrbGpzb3FmMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/In6RlbdP61Ot8lBN14/giphy.gif)
 
 ---
 
